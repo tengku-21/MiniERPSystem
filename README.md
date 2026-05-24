@@ -10,6 +10,31 @@ Hi, this is my submission on technical assessment. Quick summary, to test the ap
 
 Info: This app use .NET 10.
 
+Below is summary of each API do
+
+### 📊 INVENTORY API
+| Route | Desc |
+| ------------- | ------ |
+| POST /api/inventory   | Create an inventory for a product |
+| GET /api/inventory/{productId}         | Get inventory for specified product |
+| PUT /api/inventory/{productId}/add  | Add inventory quantity |
+| PUT /api/inventory/{productId}/deduct       | Deduct inventory quantity |
+
+### 📊 ORDERS API
+| Route | Desc |
+| ------------- | ------ |
+| GET /api/orders         | Get All Orders |
+| POST /api/orders | Create order |
+| GET /api/orders/{id}       | Get order by id |
+
+### 📊 PRODUCTS API
+| Route | Desc |
+| ------------- | ------ |
+| POST /api/products   | Create Product |
+| GET /api/products        | Get All Product |
+| GET /api/products/{id}        | Get Product by Id |
+
+
 For details of my thinking and structure of the app, I will explain briefly below:
 
 ## Implementation Details
