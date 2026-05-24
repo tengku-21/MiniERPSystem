@@ -22,7 +22,7 @@ public class OrderService(
             Items     = new List<OrderItem>()
         };
 
-        // Step 1 — validate every item before touching anything
+        // First validate every item before touching anything
         foreach (var item in request.Items)
         {
             // check product exists
@@ -55,7 +55,7 @@ public class OrderService(
             });
         }
 
-        // Step 2 — all items valid, now deduct stock
+        // 2. all items valid, now deduct stock
         foreach (var item in order.Items)
         {
             var deducted = await _inventoryClient.DeductStockAsync(item.ProductId, item.Quantity);
@@ -68,7 +68,7 @@ public class OrderService(
             }
         }
 
-        // Step 3 — all good, confirm order
+        // 3. if all good, confirm order
         order.Status = OrderStatus.Confirmed;
         await _repository.AddAsync(order);
         return MapToResponse(order);
