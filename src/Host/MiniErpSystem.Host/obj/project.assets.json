@@ -909,18 +909,25 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Inventory.Application": "1.0.0"
+          "Inventory.Application": "1.0.0",
+          "Inventory.Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Inventory.API.dll": {}
         },
         "runtime": {
           "bin/placeholder/Inventory.API.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Inventory.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8"
+        },
         "compile": {
           "bin/placeholder/Inventory.Application.dll": {}
         },
@@ -932,7 +939,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Inventory.Application": "1.0.0"
+          "Inventory.Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "10.0.8"
         },
         "compile": {
           "bin/placeholder/Inventory.Infrastructure.dll": {}
