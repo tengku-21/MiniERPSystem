@@ -58,19 +58,25 @@ The architecture I decided on, after doing some googling and asking Dr.AI, is ma
 
 Below is a illustarion of the program structure. I present as a slide.
 
+1
 ![Picture 1](readme-images-just-ignore-this/2.png "Slide One")
 
+2
 ![Picture 1](readme-images-just-ignore-this/simplified.png "Slide Three")
 
+3
 ![Picture 2](readme-images-just-ignore-this/3.png "Slide Two")
 
+4
 ![Picture 3](readme-images-just-ignore-this/4.png "Slide Four")
 
-
+5
 ![Picture 4](readme-images-just-ignore-this/5.png "Slide Five")
 
+6
 ![Picture 5](readme-images-just-ignore-this/6.png "Slide Six")
 
+7
 ![Picture 6](readme-images-just-ignore-this/7.png "Slide Seven")
 
 
