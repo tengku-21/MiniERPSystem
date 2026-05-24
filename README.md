@@ -35,9 +35,9 @@ Below is a illustarion of the program structure. I present as a slide.
 
 ![Picture 1](readme-images-just-ignore-this/2.png "Slide One")
 
-![Picture 2](readme-images-just-ignore-this/3.png "Slide Two")
-
 ![Picture 1](readme-images-just-ignore-this/simplified.png "Slide Three")
+
+![Picture 2](readme-images-just-ignore-this/3.png "Slide Two")
 
 ![Picture 3](readme-images-just-ignore-this/4.png "Slide Four")
 
