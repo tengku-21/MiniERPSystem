@@ -112,6 +112,6 @@ Compare to when handling using http it will wait for service to return error or 
 
 That's all for my mini simple ERP system. Thanks for reading. 
 
-And thanks also for the assessment. I learn new things already.
+And thanks also for the given assessment. I learn new things already.
 
 
