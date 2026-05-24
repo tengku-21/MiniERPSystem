@@ -61,7 +61,7 @@ Below is a illustarion of the program structure. I present as a slide.
 1
 ![Picture 1](readme-images-just-ignore-this/2.png "Slide One")
 
-2
+2 - If module imported the API will be available on host
 ![Picture 1](readme-images-just-ignore-this/simplified.png "Slide Three")
 
 3
