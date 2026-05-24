@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Orders.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Orders.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Orders.Application.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Orders.Application/1.0.0": {
+      "type": "project",
+      "path": "../Orders.Application/Orders.Application.csproj",
+      "msbuildProject": "../Orders.Application/Orders.Application.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Orders.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\faizt\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\orders\\Orders.API\\Orders.API.csproj",
+      "projectUniqueName": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Orders\\Orders.API\\Orders.API.csproj",
       "projectName": "Orders.API",
-      "projectPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\orders\\Orders.API\\Orders.API.csproj",
+      "projectPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Orders\\Orders.API\\Orders.API.csproj",
       "packagesPath": "C:\\Users\\faizt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\orders\\Orders.API\\obj\\",
+      "outputPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Orders\\Orders.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\faizt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,7 +51,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Orders\\Orders.Application\\Orders.Application.csproj": {
+              "projectPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Orders\\Orders.Application\\Orders.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

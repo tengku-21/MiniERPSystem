@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "osPiLn76Z5A=",
+  "dgSpecHash": "h0MgcKWLkAo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\products\\Products.Application\\Products.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Products\\Products.Application\\Products.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\faizt\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.8\\microsoft.entityframeworkcore.10.0.8.nupkg.sha512",
+    "C:\\Users\\faizt\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.8\\microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512",
+    "C:\\Users\\faizt\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.8\\microsoft.entityframeworkcore.analyzers.10.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

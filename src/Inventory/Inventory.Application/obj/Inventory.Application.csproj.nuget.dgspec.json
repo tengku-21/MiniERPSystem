@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\inventory\\Inventory.Application\\Inventory.Application.csproj": {}
+    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Inventory\\Inventory.Application\\Inventory.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\inventory\\Inventory.Application\\Inventory.Application.csproj": {
+    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Inventory\\Inventory.Application\\Inventory.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\inventory\\Inventory.Application\\Inventory.Application.csproj",
+        "projectUniqueName": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Inventory\\Inventory.Application\\Inventory.Application.csproj",
         "projectName": "Inventory.Application",
-        "projectPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\inventory\\Inventory.Application\\Inventory.Application.csproj",
+        "projectPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Inventory\\Inventory.Application\\Inventory.Application.csproj",
         "packagesPath": "C:\\Users\\faizt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\inventory\\Inventory.Application\\obj\\",
+        "outputPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Inventory\\Inventory.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faizt\\AppData\\Roaming\\NuGet\\NuGet.Config"
