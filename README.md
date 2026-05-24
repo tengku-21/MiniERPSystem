@@ -14,9 +14,14 @@ For details of my thinking and structure of the app, I will explain briefly belo
 
 ## Implementation Details
 
-Reading through the requirements pdf. The task basically ask for a simple ERP system where it contains **3 services**. Products, Inventory and Orders.
+Reading through the requirements pdf. The task basically ask for a simple ERP system where it contains **3 services**. 
+- Products
+- Inventory 
+- Orders
 
-The key part here is, these 3 services has to be seperated. Means that one service doesnt really know each other, and can't call or edit other table directly. They can only talk through http request allowed by that said service API if needed to access data related to it.
+The key part here is, these 3 services has to be *seperated*. Means that one service doesnt really know each other, and can't call or edit other table directly. 
+
+They can only talk through *http request route* allowed by that said service API if needed to access data related to it.
 
 This is actually my first building this kind of system design. 
 
@@ -46,7 +51,7 @@ Below is a illustarion of the program structure. I present as a slide.
 
 ### Concerns
 
-I've done this on Sunday. Since i got only one day of creating this there are few compremise that I just pass through.
+I've done this on Sunday. Since i got only one day of creating this there are few compromise that I just pass through.
 
 1. On GET routes, usually you want to add pagination and limit queries. You don't want your 'GET' all routes to be query large datasets from database. So GET all response suppose to have meta(pagination, limit). Not just for resource management but also make it easier for the front end to be setup.
 
