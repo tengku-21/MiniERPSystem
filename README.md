@@ -92,9 +92,11 @@ It is kinda similar to MQTT where it has broker and subscriber. Which usually us
 
 But different from MQTT, kafka can hold a large amount of events.
 
-Eventhough, I'm familiar with the concept, I am not really have experience writing program in conjuction with Kafka. So i opt out from adding it to the project, in fear it will break my base project.
+Eventhough, I'm familiar with the concept, I am not really have experience writing program in conjuction with Kafka. 
 
-And also for assessment, better to show what I am most familiar at so that you know my current knowledge/skills.
+So i opt out from adding it to the project, in fear it will break my base project and will run out of time.
+
+For assessment, it's better to show what I am most familiar at so that you know my current knowledge/skills.
 
 But below is my idea conceptually if need to add Kafka to the mix:
 
