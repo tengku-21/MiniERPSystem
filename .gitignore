@@ -1,0 +1,8 @@
+dotnet add src/Host/MiniErpSystem.Host reference src/Products/Products.API/Products.API.csproj
+dotnet add src/Host/MiniErpSystem.Host reference src/Inventory/Inventory.API/Inventory.API.csproj
+dotnet add src/Host/MiniErpSystem.Host reference src/Orders/Orders.API/Orders.API.csproj
+
+dotnet add src/Host/MiniErpSystem.Host reference src/Products/Products.Infrastructure/Products.Infrastructure.csproj
+dotnet add src/Host/MiniErpSystem.Host reference src/Inventory/Inventory.Infrastructure/Inventory.Infrastructure.csproj
+dotnet add src/Host/MiniErpSystem.Host reference src/Orders/Orders.Infrastructure/Orders.Infrastructure.csproj
+
