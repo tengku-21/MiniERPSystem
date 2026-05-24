@@ -48,7 +48,7 @@ The key part here is, these 3 services has to be *seperated*. Means that one ser
 
 They can only talk through *http request route* allowed by that said service API if needed to access data related to it.
 
-This is actually my first building this kind of system design. 
+This is actually my first time building this kind of system design. 
 
 Previous i just lump up all repo and service what not and seperate only by folder name. This of course will cause a massive dump in the folders.
 
