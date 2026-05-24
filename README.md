@@ -54,7 +54,7 @@ Previous i just lump up all repo and service what not and seperate only by folde
 
 So for this assessment, we need to make the service modular.
 
-The architecture I decided on, after doing some googling and asking Dr.AI, is making a host (webapi) and the services as seperate classlib that will have it module called inside the host webapi main. 
+The architecture I decided on, after doing some googling and asking Dr.AI, is making one host (webapi) and the services as seperate classlib. the service will have it module called inside the host webapi program.cs. 
 
 Below is a illustarion of the program structure. I present as a slide.
 
