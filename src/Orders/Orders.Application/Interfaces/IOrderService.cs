@@ -6,4 +6,5 @@ public interface IOrderService
 {
     Task<OrderResponse> CreateAsync(CreateOrderRequest request);
     Task<OrderResponse?> GetByIdAsync(Guid id);
+    Task<IEnumerable<OrderResponse>> GetAllAsync();
 }

@@ -10,6 +10,13 @@ public class OrdersController(IOrderService orderService) : ControllerBase
 {
     private readonly IOrderService _orderService = orderService;
 
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var products = await _orderService.GetAllAsync();
+        return Ok(products);
+    }
+
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateOrderRequest request)
     {

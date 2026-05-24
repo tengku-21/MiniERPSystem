@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj": {}
+    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj": {
+    "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj",
+        "projectUniqueName": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj",
         "projectName": "MiniErpSystem.Host",
-        "projectPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj",
+        "projectPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj",
         "packagesPath": "C:\\Users\\faizt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Host\\MiniErpSystem.Host\\obj\\",
+        "outputPath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\host\\MiniErpSystem.Host\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faizt\\AppData\\Roaming\\NuGet\\NuGet.Config"

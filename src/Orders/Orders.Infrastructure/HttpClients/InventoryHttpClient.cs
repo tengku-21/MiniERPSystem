@@ -4,14 +4,9 @@ using Orders.Application.Interfaces;
 
 namespace Orders.Infrastructure.HttpClients;
 
-public class InventoryHttpClient : IInventoryClient
+public class InventoryHttpClient(HttpClient httpClient) : IInventoryClient
 {
-    private readonly HttpClient _httpClient;
-
-    public InventoryHttpClient(HttpClient httpClient)
-    {
-        _httpClient = httpClient;
-    }
+    private readonly HttpClient _httpClient = httpClient;
 
     public async Task<StockDto?> GetStockAsync(Guid productId)
     {
@@ -27,7 +22,7 @@ public class InventoryHttpClient : IInventoryClient
 
     public async Task<bool> DeductStockAsync(Guid productId, int quantity)
     {
-        var response = await _httpClient.PostAsJsonAsync(
+        var response = await _httpClient.PutAsJsonAsync(
             $"api/inventory/{productId}/deduct", new { quantity });
         return response.IsSuccessStatusCode;
     }

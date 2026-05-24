@@ -80,6 +80,12 @@ public class OrderService(
         return order is null ? null : MapToResponse(order);
     }
 
+    public async Task<IEnumerable<OrderResponse>> GetAllAsync()
+    {
+        var orders = await _repository.GetAllAsync();
+        return orders.Select(MapToResponse);
+    }
+
     private static OrderResponse MapToResponse(Order order) => new()
     {
         Id        = order.Id,

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n0VRypdjLn4=",
+  "dgSpecHash": "/9d5QGI54Qw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\Host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj",
+  "projectFilePath": "C:\\Users\\faizt\\Desktop\\QubesApp-erp\\MiniErpSystem\\src\\host\\MiniErpSystem.Host\\MiniErpSystem.Host.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\faizt\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\faizt\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",

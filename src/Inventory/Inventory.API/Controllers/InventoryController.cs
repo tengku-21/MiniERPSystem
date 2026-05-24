@@ -30,4 +30,15 @@ public class InventoryController(IInventoryService inventoryService) : Controlle
         var stock = await _inventoryService.AddStockAsync(productId, request);
         return Ok(stock);
     }
+
+    [HttpPut("{productId}/deduct")]
+    public async Task<IActionResult> DeductStock(Guid productId, [FromBody] AdjustStockRequestDTO request)
+    {
+        var success = await _inventoryService.DeductStockAsync(productId, request.Quantity);
+        
+        if (!success)
+            return BadRequest(new { error = "Insufficient stock." });
+
+        return Ok();
+    }
 }
